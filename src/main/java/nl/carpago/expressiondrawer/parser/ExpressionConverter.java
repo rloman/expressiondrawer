@@ -1,11 +1,11 @@
 package nl.carpago.expressiondrawer.parser;
 
-import nl.carpago.expressiondrawer.parser.exceptions.InvalidExpressionException;
 import nl.carpago.expressiondrawer.model.Operator;
 import nl.carpago.expressiondrawer.model.Tree;
+import nl.carpago.expressiondrawer.parser.exceptions.InvalidExpressionException;
 
-import java.util.Stack;
 import java.util.EmptyStackException;
+import java.util.Stack;
 
 public class ExpressionConverter
 {

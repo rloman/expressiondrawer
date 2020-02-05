@@ -2,7 +2,7 @@ package nl.carpago.expressiondrawer.model;
 
 import nl.carpago.expressiondrawer.ui.TreePanel;
 
-import java.awt.Graphics;
+import java.awt.*;
 
 public class Tree
 {
