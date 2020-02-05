@@ -1,4 +1,6 @@
-package nl.carpago.expressiondrawer;
+package nl.carpago.expressiondrawer.parser;
+
+import nl.carpago.expressiondrawer.model.Operator;
 
 import java.util.StringTokenizer;
 
@@ -19,7 +21,7 @@ public class ExpressionParser
 		inorder = inorder.replace(',','.');
 		hulp = inorder;
 		
-		for(int i = 0;i < Operator.operators.length;i++)
+		for(int i = 0; i < Operator.operators.length; i++)
 		{
 			hulp = tokenize(hulp, Operator.operators[i]);
 		}

@@ -1,9 +1,9 @@
-package nl.carpago.expressiondrawer;
+package nl.carpago.expressiondrawer.ui;
+
+import nl.carpago.expressiondrawer.model.Tree;
 
 import javax.swing.*;
-import javax.swing.event.*;
 import java.awt.*;
-import java.awt.event.*;
 
 public class TreePanel extends JPanel
 {

@@ -1,5 +1,9 @@
 package nl.carpago.expressiondrawer;
 
+import nl.carpago.expressiondrawer.parser.exceptions.InvalidExpressionException;
+import nl.carpago.expressiondrawer.model.Tree;
+import nl.carpago.expressiondrawer.parser.ExpressionConverter;
+
 public class ExpressionTester
 {
 	public static void main(String[] args)

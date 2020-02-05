@@ -1,4 +1,4 @@
-package nl.carpago.expressiondrawer;
+package nl.carpago.expressiondrawer.parser.exceptions;
 
 public class InvalidExpressionException extends Exception
 {

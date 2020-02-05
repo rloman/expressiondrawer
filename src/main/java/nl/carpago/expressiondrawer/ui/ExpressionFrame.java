@@ -1,7 +1,10 @@
-package nl.carpago.expressiondrawer;
+package nl.carpago.expressiondrawer.ui;
+
+import nl.carpago.expressiondrawer.parser.exceptions.InvalidExpressionException;
+import nl.carpago.expressiondrawer.model.Tree;
+import nl.carpago.expressiondrawer.parser.ExpressionConverter;
 
 import javax.swing.*;
-import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -147,12 +150,5 @@ public class ExpressionFrame extends JFrame implements ActionListener
 		}
 		
 	}
-	
-	
-	public static void main(String[] args)
-	{
-		ExpressionFrame frame = new ExpressionFrame();
-		frame.setSize(800,600);
-		frame.setVisible(true);
-	}
+
 }

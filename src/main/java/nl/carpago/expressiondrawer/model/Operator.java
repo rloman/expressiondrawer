@@ -1,4 +1,4 @@
-package nl.carpago.expressiondrawer;
+package nl.carpago.expressiondrawer.model;
 
 public interface Operator
 {
